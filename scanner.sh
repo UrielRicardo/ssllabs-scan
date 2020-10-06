@@ -5,7 +5,10 @@ PLAYWITHDOCKER ENV:
 	apt-get update && apt-get install metasploit-framework
 
 Use scanner:
-  apt-get install sudo python3 git vim -y
+  apt-get install sudo -y
+  apt-get install python3 -y
+  apt-get install git -y
+  apt-get install vim -y
   git clone https://github.com/kyhau/ssllabs-scan
   apt-get install curl
   curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
