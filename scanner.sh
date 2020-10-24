@@ -9,6 +9,7 @@ Use scanner:
   apt-get install python3 -y
   apt-get install git -y
   apt-get install vim -y
+  apt-get install tree -y
   git clone https://github.com/kyhau/ssllabs-scan
   apt-get install curl
   curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
